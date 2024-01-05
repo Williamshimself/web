@@ -16,6 +16,9 @@
     #hamburger-nav{
         display:flex;
     }
+    .experience-details-container{
+        margin-top: 2rem;
+    }
     #profile ,.section-container{
         display: block;
     }
@@ -26,19 +29,22 @@
         height: fit-content;
     }
     section{
-        margin: 0.5%;
+        margin:0.5%;
     }
-    .section__pic-container{
+    .section_pic-container{
         width: 275px;
-        height: 275px;
+        height:275px;
         margin: 0 auto 2rem;
     }
     .about-containers{
         margin-top: 0;
     }
+    #contact{
+        height: 20vh;
+    }
 }
 
-@media screen and (max-width:1200px) {
+@media screen and (max-width:600px) {
 #contact{
     height: 40vh;
 }
@@ -79,4 +85,9 @@ article{
 .text-container{
     text-align: justify;
 }
+.section__pic-container {
+        margin: 0 auto; /* Center the homepage photo */
+      }
 }
+
+
